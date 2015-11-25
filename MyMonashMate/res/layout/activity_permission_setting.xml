@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#85aab7" >
+    
+    <LinearLayout
+        android:id="@+id/update_permission_top_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0dip"
+        android:orientation="horizontal"
+        android:layout_marginLeft="14.0dip"
+    	android:layout_marginRight="14.0dip" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/permission" />
+
+
+            <Button
+                android:id="@+id/permission_setting_save_button"
+                android:layout_width="match_parent"
+                android:layout_height="35dip"
+                android:background="@drawable/rounded_button"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:text="Update"
+                android:textSize="10sp"
+            	android:textColor="#FFFFFF" />
+    </LinearLayout>
+    
+<LinearLayout
+    android:id="@+id/permission_vertical_linear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="14.0dip"
+    android:layout_marginRight="14.0dip"
+    android:layout_below="@+id/update_permission_top_linearLayout"
+    android:background="@drawable/rounded_background" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+	<RelativeLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent" >   
+        <TextView
+            android:id="@+id/permission_nickname_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="#FFFFFF"
+            android:text="Nickname" />
+
+        <Switch 
+            android:id="@+id/tb_permission_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textOn="Public"
+            android:textOff="Restrict"
+            android:textSize="10sp" />
+        
+    </RelativeLayout>     
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:orientation="horizontal" >
+	
+	<RelativeLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent" >
+        
+        <TextView
+            android:id="@+id/permission_native_language_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="#FFFFFF"
+            android:text="Native Language" />
+
+        <Switch 
+            android:id="@+id/tb_permission_native_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textOn="Public"
+            android:textOff="Restrict"
+            android:textSize="10sp" />
+        
+    </RelativeLayout>     
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:orientation="horizontal" >
+	<RelativeLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent" >
+        
+        <TextView
+            android:id="@+id/permission_favourite_food_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="#FFFFFF"
+            android:text="Favourite Food" />
+
+        <Switch
+            android:id="@+id/tb_permission_favourite_food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textOn="Public"
+            android:textOff="Restrict"
+            android:textSize="10sp" />     
+    </RelativeLayout>     
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:orientation="horizontal" >
+	<RelativeLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent" >
+        
+        <TextView
+            android:id="@+id/permission_suburb_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="#FFFFFF"
+            android:text="Suburb" />
+
+        <Switch
+            android:id="@+id/tb_permission_suburb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textOn="Public"
+            android:textOff="Restrict"
+            android:textSize="10sp" />     
+    </RelativeLayout>     
+    </LinearLayout>
+
+
+</LinearLayout>
+</RelativeLayout>

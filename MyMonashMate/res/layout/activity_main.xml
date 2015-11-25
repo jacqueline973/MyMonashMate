@@ -1,0 +1,104 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.onclickevent.MainActivity"
+    tools:ignore="MergeRootFrame"
+    android:background="#85aab7" >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="28.0dip" >
+
+   <LinearLayout
+        android:id="@+id/input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28.0dip"
+        android:layout_marginRight="28.0dip"
+        android:orientation="vertical"
+        android:layout_gravity="center" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/my_monash_mate_logo" />
+
+            <EditText
+                android:id="@+id/userName"
+                android:layout_width="fill_parent"
+                android:layout_height="35dip"
+                android:layout_marginTop="20.0dip"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_username"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textSize="10sp"
+                android:hint="@string/usernameHint" >"
+
+                <requestFocus />
+            </EditText>
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="fill_parent"
+            android:layout_height="35.0dip"
+            android:layout_marginTop="1.0dip"
+            android:background="@drawable/rounded_password"
+            android:gravity="center_vertical"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:maxLines="1"
+            android:textColor="#ff1d1d1d"
+            android:textColorHint="#ff666666"
+            android:textSize="10.0sp"
+            android:hint="@string/passwordHint" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/input"
+        android:layout_marginLeft="28.0dip"
+        android:layout_marginRight="28.0dip"
+        android:layout_marginTop="24.0dip"
+        android:background="@drawable/rounded_button"
+        android:gravity="center"
+        android:text="@string/signIn"
+        android:textColor="#f7f8f4"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/signUpLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="@string/signUp"
+        android:textColor="#377784"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/signInButton"
+        android:layout_below="@+id/signInButton"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/newHere"
+        android:textColor="#f7f8f4"
+        android:textSize="16sp" />
+
+</RelativeLayout>
+
+</FrameLayout>

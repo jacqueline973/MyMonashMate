@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.monash.mymonashmate.custom.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#85aab7" >
+   
+    <!--  Monash Mate Button -->
+    <Button
+        android:id="@+id/btn_mate"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/monash_mate"
+        android:text="Monash Mate" />
+    
+    <!--  Profile Button -->
+    <Button
+        android:id="@+id/btn_profile"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/profile"
+        android:text="Profile" />
+    
+    
+    <!--  Permission Button -->
+    <Button
+        android:id="@+id/btn_permission"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/permission"
+        android:text="Permission" />
+      
+ 
+</com.monash.mymonashmate.custom.DashboardLayout>

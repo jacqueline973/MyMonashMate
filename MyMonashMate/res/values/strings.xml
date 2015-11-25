@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Monash Mate</string>
+    <string name="action_settings">Settings</string>
+    <string name="signIn">Sign In</string>
+    <string name="action_signIn">Sign In</string>
+    <string name="newHere">New Here?</string>
+    <string name="signUp">Sign Up<a href=""></a></string>
+    <string name="myMonashMate">My Monash Mate</string>
+    <string name="usernameHint">Username</string>
+    <string name="passwordHint">Password</string>
+    <string name="reKeyPasswordHint">Confirm Password</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name="done">Done</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard_actionbar">Dashboard</string>
+    
+    <!-- Add Profile -->
+    <string name="student_id_hint">Digital number only</string>
+    <string name="name_hint">eg. Donna Bell</string>
+    <string name="nickname_hint">eg. Tiger</string>
+    <string name="native_language_hint">eg. English</string>
+    <string name="favourite_food_hint">eg. Apple</string>
+    <string name="suburb_hint">eg. Caufield</string>
+    <string name="add_profile_done">Done</string>
+    <string name="ap_string_choose_courses">Choose Courses *</string>
+    <string name="ap_string_choose_units">Choose Units *</string>
+    
+    
+    <!-- Search Criteria -->
+	<string name="search_criteria_unit_hint">Unit Code eg. FIT5057</string>
+	<string name="search_criteria_course_hint">Course Code eg. 3342</string>
+	<string name="search_criteria_native_language_hint">Native Language</string>
+	<string name="search_criteria_favorite_food_hint">Favorite Food</string>
+	<string name="search_criteria_suburb_hint">Suburb Name eg.Caufield</string>
+	<string name="bt_search_criteria_search">Search</string>
+	
+	<!-- Permission Setting -->
+	<string name="permission_setting_save_button_text">Save</string>
+	
+	<!-- Update Profile -->
+	<string name="update_profile_nickname_hint">Save</string>
+</resources>

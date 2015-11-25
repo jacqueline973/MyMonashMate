@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="I:/BaoBaoAssignments/Android/workspace/MyMonashMate/libs/spring-android-auth-1.0.1.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="I:/BaoBaoAssignments/Android/workspace/MyMonashMate/libs/spring-android-core-1.0.1.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="I:/BaoBaoAssignments/Android/workspace/MyMonashMate/libs/spring-android-rest-template-1.0.1.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="I:/BaoBaoAssignments/Android/workspace/MyMonashMate/libs/jackson-all-1.9.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/mapquest-android-sdk-1.0.5.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

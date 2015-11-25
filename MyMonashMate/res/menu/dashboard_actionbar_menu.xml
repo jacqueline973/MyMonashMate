@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.monash.mymonashmate.MateActivity" >
+
+      <item android:id="@+id/logout"
+          android:icon="@drawable/logout"
+          android:title="@string/action_signIn"
+          android:showAsAction="always" />
+
+
+</menu>
